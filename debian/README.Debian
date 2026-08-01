@@ -14,7 +14,7 @@ unix/distro_icons.h embeds ~38 small Linux/Unix distribution/vendor
 logo icons, sourced during early development, used to decorate the
 saved-sessions list based on the remote host's detected OS.
 
-36 of the 38 have now been traced to a free/open icon catalogue:
+37 of the 38 have now been traced to a free source or replaced:
   - 31 to "dashboard-icons" (github.com/homarr-labs/dashboard-icons,
     Apache-2.0) -- confirmed from browser history (fetched via
     jsdelivr CDN from that repo) and by visually diffing the
@@ -29,18 +29,28 @@ saved-sessions list based on the remote host's detected OS.
     (github.com/PapirusDevelopmentTeam/papirus-icon-theme,
     GPL-3.0-or-later, already an official Debian package) --
     confirmed by matching the raspberry silhouette.
+  - 1 (astra) REPLACED with original artwork -- Astra Linux's own
+    official press kit (astra.ru) has a logo download but states no
+    reuse licence at all (a normal commercial trademark, not a
+    community-project logo with reuse permission like the others
+    above), so it was a real unresolved trademark risk rather than
+    just a missing attribution. Swapped for a plain blue "A" on a
+    white badge, matching this fork's own flat-badge style (see the
+    "question" icon and FEATURES.md's Credits section).
 See debian/copyright for the full per-icon list and detail.
 
-The remaining 2 -- astra, dropbear -- do NOT appear in any of the
-four catalogues checked so far under any name/alias tried (astra was
-also checked directly against Wikimedia Commons; no usable match).
-Their source is still genuinely unknown. Until those 2 are
-individually replaced/redrawn (or dropped) AND this generated header
-is split back into per-icon source files so the 36 resolved ones can
-carry their own copyright records, this file as a whole is still not
-confirmed DFSG-free -- see debian/copyright for the formal marker. Do
-not upload this package to a public archive (Debian or otherwise) or
-a shared apt repository until this is resolved.
+The remaining 1 -- dropbear -- does not appear in any of the four
+catalogues checked under any name/alias tried. Unlike astra there's
+no official upstream logo to worry about (the real Dropbear SSH
+project has no branding at all); this fork's icon is just a generic
+"DR" letter-badge, plausibly too simple to be copyrightable at all,
+but its specific origin is still unknown. Until it's replaced/dropped
+AND this generated header is split back into per-icon source files so
+the 37 resolved ones can carry their own copyright records, this file
+as a whole is still not confirmed DFSG-free -- see debian/copyright
+for the formal marker. Do not upload this package to a public archive
+(Debian or otherwise) or a shared apt repository until this is
+resolved.
 
 This does not block using the package on your own machine.
 

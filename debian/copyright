@@ -46,8 +46,9 @@ Copyright: 2024 Bjorn Lammers, Meier Lukas, Thomas Camlong, and Homarr Labs
  slackware -- see Comment)
  selfhst/icons contributors (1 embedded icon: freebsd -- see Comment)
  Papirus Development Team (1 embedded icon: raspbian -- see Comment)
- 2026 Darth Vader <max232san@gmail.com> (the "question" icon, self-drawn)
- unknown (remaining 2 embedded icons: astra, dropbear)
+ 2026 Darth Vader <max232san@gmail.com> (the "question" and "astra"
+ icons, both self-drawn -- see Comment)
+ unknown (remaining 1 embedded icon: dropbear)
 License: UNKNOWN
 Comment:
  XXX MOSTLY RESOLVED as of 2026-08-01, see debian/README.Debian. This
@@ -82,13 +83,27 @@ Comment:
  Those 36 are effectively covered by their respective free licences
  once this stanza is split up file-by-file (not done yet -- would
  require de-generating this header back into per-icon source images
- with individual copyright records). The remaining 2 -- astra,
- dropbear -- do NOT appear in any of the four catalogues checked so
- far under any alias tried (astra was also checked against Wikimedia
- Commons directly: the only Commons hits for "Astra" are an unrelated
- satellite company's logo and a body-paint art photo, neither usable),
- so their original source is still genuinely unknown. Until either
- those 2 are replaced/dropped or the header is split so the 36
+ with individual copyright records).
+ .
+ astra was different: the official Astra Linux / "Группа Астра" press
+ kit (astra.ru/about/press-center/materials/) has a direct logo
+ download but states no usage licence at all -- a normal commercial
+ trademark, unlike the community-project logos above that come with
+ explicit reuse permission, so using it would have been a real
+ unresolved trademark risk, not just an attribution gap. Also checked
+ Wikimedia Commons directly: the only "Astra" hits there are an
+ unrelated satellite company's PD-textlogo and an unrelated art photo,
+ neither usable. Replaced with original artwork instead (a plain blue
+ "A" on a white rounded-square badge, matching the flat-badge style
+ already used for the "question" icon -- see FEATURES.md Credits).
+ .
+ The remaining 1 -- dropbear -- does NOT appear in any of the four
+ catalogues checked, and unlike astra there is no official upstream
+ logo to even worry about (the actual Dropbear SSH project has no
+ branding at all); this fork's existing icon is just a generic "DR"
+ letter-badge, plausibly below the threshold of originality for
+ copyright, but its specific provenance is still genuinely unknown.
+ Until it's replaced/dropped or the header is split so the 37
  resolved ones can be declared individually, this FILE as a whole
  stays NOT confirmed DFSG-free.
  See FEATURES.md and debian/README.Debian for the current plan.

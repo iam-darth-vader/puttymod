@@ -50,12 +50,14 @@ also gets a hand-drawn cairo gradient tinted with that distro's brand
 colour behind each row, icon and text redrawn crisply on top so
 they're never dimmed.
 
-> **Known open issue**: 36 of the 38 icons have been traced to free/
-> open icon catalogues (dashboard-icons, Simple Icons, selfhst/icons,
-> papirus-icon-theme — see `debian/copyright`). 2 remain unresolved
-> (`astra`, `dropbear`) with no confirmed free source found yet. Must
+> **Known open issue**: 37 of the 38 icons are now clean — 36 traced
+> to free/open icon catalogues (dashboard-icons, Simple Icons,
+> selfhst/icons, papirus-icon-theme), plus `astra`, which turned out
+> to be an actual commercial trademark with no reuse licence (Astra
+> Linux's own press kit doesn't grant one), so it was replaced with
+> original artwork instead. Only `dropbear` remains unresolved. Must
 > be resolved (redrawn or dropped) before any public/archive
-> distribution — see `debian/README.Debian`.
+> distribution — see `debian/copyright` and `debian/README.Debian`.
 
 ## Online/offline status per session
 
@@ -175,9 +177,9 @@ distro-icon licensing gap above, see `debian/copyright` and
 
 ## Credits — third-party icon sources
 
-The distro/OS icons in `unix/distro_icons.h` are not original
-artwork. 36 of the 38 have been traced to these free/open icon
-projects (full per-icon breakdown in `debian/copyright`):
+Most of the distro/OS icons in `unix/distro_icons.h` are not
+original artwork. 36 of the 38 have been traced to these free/open
+icon projects (full per-icon breakdown in `debian/copyright`):
 
 - [dashboard-icons](https://github.com/homarr-labs/dashboard-icons)
   by Bjorn Lammers, Meier Lukas, Thomas Camlong, and Homarr Labs —
@@ -190,5 +192,11 @@ projects (full per-icon breakdown in `debian/copyright`):
   by the Papirus Development Team — GNU GPL v3 or later — 1 icon
   (raspbian).
 
-The remaining 2 (astra, dropbear) have no confirmed source yet — see
-the note above.
+The `question` and `astra` icons are original artwork by this fork's
+author. `astra` specifically replaced a copy of Astra Linux's actual
+trademarked logo, once it became clear their own official press kit
+grants no reuse licence — the replacement is a plain blue "A" on a
+white badge, deliberately not resembling the real trademark.
+
+The remaining 1 (dropbear) has no confirmed source yet — see the
+note above.
