@@ -81,6 +81,7 @@ Makefile
 /charset/sbcsdat.c
 /contrib/cygtermd/cygtermd.exe
 /doc/*.html
+/doc/html/
 /doc/*.txt
 # Real source file, not halibut-generated output - /doc/*.txt above
 # matches it too since it also ends in ".txt".
