@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: PuTTyMOD (a patched fork of PuTTY)
 Upstream-Contact: Darth Vader <max232san@gmail.com>
-Source: https://github.com/max232san/puttymod
+Source: https://github.com/iam-darth-vader/puttymod
 
 Files: *
 Copyright: 1997-2025 Simon Tatham
