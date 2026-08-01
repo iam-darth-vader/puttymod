@@ -50,11 +50,12 @@ also gets a hand-drawn cairo gradient tinted with that distro's brand
 colour behind each row, icon and text redrawn crisply on top so
 they're never dimmed.
 
-> **Known open issue**: several of these icons were sourced from the
-> web during early development with unverified licensing. Not
-> confirmed redistributable — see `debian/copyright` and
-> `debian/README.Debian`. Must be resolved (redrawn or replaced)
-> before any public/archive distribution.
+> **Known open issue**: 36 of the 38 icons have been traced to free/
+> open icon catalogues (dashboard-icons, Simple Icons, selfhst/icons,
+> papirus-icon-theme — see `debian/copyright`). 2 remain unresolved
+> (`astra`, `dropbear`) with no confirmed free source found yet. Must
+> be resolved (redrawn or dropped) before any public/archive
+> distribution — see `debian/README.Debian`.
 
 ## Online/offline status per session
 

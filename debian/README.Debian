@@ -14,7 +14,7 @@ unix/distro_icons.h embeds ~38 small Linux/Unix distribution/vendor
 logo icons, sourced during early development, used to decorate the
 saved-sessions list based on the remote host's detected OS.
 
-35 of the 38 have now been traced to a free/open icon catalogue:
+36 of the 38 have now been traced to a free/open icon catalogue:
   - 31 to "dashboard-icons" (github.com/homarr-labs/dashboard-icons,
     Apache-2.0) -- confirmed from browser history (fetched via
     jsdelivr CDN from that repo) and by visually diffing the
@@ -25,13 +25,18 @@ saved-sessions list based on the remote host's detected OS.
   - 1 (freebsd) to selfhst/icons (github.com/selfhst/icons,
     CC-BY-4.0) -- confirmed by matching the "Beastie" silhouette
     (this fork's copy is a darker recolour of the same shape).
+  - 1 (raspbian) to papirus-icon-theme
+    (github.com/PapirusDevelopmentTeam/papirus-icon-theme,
+    GPL-3.0-or-later, already an official Debian package) --
+    confirmed by matching the raspberry silhouette.
 See debian/copyright for the full per-icon list and detail.
 
-The remaining 3 -- astra, dropbear, raspbian -- do NOT appear in any
-of the three catalogues checked so far under any name/alias tried, so
-their source is still genuinely unknown. Until those 3 are
+The remaining 2 -- astra, dropbear -- do NOT appear in any of the
+four catalogues checked so far under any name/alias tried (astra was
+also checked directly against Wikimedia Commons; no usable match).
+Their source is still genuinely unknown. Until those 2 are
 individually replaced/redrawn (or dropped) AND this generated header
-is split back into per-icon source files so the 35 resolved ones can
+is split back into per-icon source files so the 36 resolved ones can
 carry their own copyright records, this file as a whole is still not
 confirmed DFSG-free -- see debian/copyright for the formal marker. Do
 not upload this package to a public archive (Debian or otherwise) or
