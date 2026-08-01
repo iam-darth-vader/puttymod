@@ -10,3 +10,4 @@ Terminal=false
 Categories=Network;RemoteAccess;
 MimeType=application/x-puttymod-export;
 StartupNotify=true
+Keywords=SSH;Telnet;SFTP;Terminal;Remote;Console;

@@ -1,17 +1,11 @@
 puttymod (0.83+puttymod1-1) unstable; urgency=medium
 
-  * Switch to source format 3.0 (quilt) with a real upstream tarball
-    (from GitHub tag v0.83+puttymod1), now that the project has a public
-    upstream repository to package against. debian/patches is empty
-    since this fork IS its own upstream.
-
- -- Darth Vader <max232san@gmail.com>  Sat, 01 Aug 2026 22:08:50 +0300
-
-puttymod (0.83+puttymod1) unstable; urgency=medium
-
   * Initial packaging of PuTTyMOD: rebranded, patched PuTTY 0.83 fork
     (25-language i18n, per-session online/offline status, theme presets,
     encrypted session export/import, encrypted auto-login password,
     first-run welcome + default Tokyo Night theme).
+  * Source format 3.0 (quilt), upstream tarball from GitHub tag
+    v0.83+puttymod1. debian/patches is empty since this fork IS its
+    own upstream.
 
- -- Darth Vader <max232san@gmail.com>  Sat, 01 Aug 2026 18:21:01 +0300
+ -- Darth Vader <max232san@gmail.com>  Sat, 01 Aug 2026 22:08:50 +0300

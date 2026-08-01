@@ -1,5 +1,7 @@
 #!/usr/bin/make -f
 
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
 # Local patch (packaging): this tree's CMakeLists.txt defines the whole
 # PuTTY suite (putty, pterm, puttygen, pageant, plink, pscp, psftp,
 # psusan) via installed_program(), but we only ship the one GUI
