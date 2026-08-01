@@ -72,12 +72,19 @@ cmake_install.cmake
 /build.out
 /empty.h
 Makefile
+# Real hand-written source Makefiles, not generated build output -
+# the bare pattern above matches at any depth and was swallowing these.
+!/icons/Makefile
+!/contrib/cygtermd/Makefile
 /compile
 *.a
 /charset/sbcsdat.c
 /contrib/cygtermd/cygtermd.exe
 /doc/*.html
 /doc/*.txt
+# Real source file, not halibut-generated output - /doc/*.txt above
+# matches it too since it also ends in ".txt".
+!/doc/CMakeLists.txt
 /doc/*.cnt
 /doc/*.hlp
 /doc/*.gid
