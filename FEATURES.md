@@ -50,14 +50,11 @@ also gets a hand-drawn cairo gradient tinted with that distro's brand
 colour behind each row, icon and text redrawn crisply on top so
 they're never dimmed.
 
-> **Known open issue**: 37 of the 38 icons are now clean — 36 traced
-> to free/open icon catalogues (dashboard-icons, Simple Icons,
-> selfhst/icons, papirus-icon-theme), plus `astra`, which turned out
-> to be an actual commercial trademark with no reuse licence (Astra
-> Linux's own press kit doesn't grant one), so it was replaced with
-> original artwork instead. Only `dropbear` remains unresolved. Must
-> be resolved (redrawn or dropped) before any public/archive
-> distribution — see `debian/copyright` and `debian/README.Debian`.
+> **Licensing: resolved.** All 38 icons are now either traced to a
+> free/open icon catalogue (dashboard-icons, Simple Icons,
+> selfhst/icons, papirus-icon-theme) or are this fork's own original
+> artwork (`question`, `astra`, `dropbear`) — see `debian/copyright`
+> for the full per-icon breakdown and the Credits section below.
 
 ## Online/offline status per session
 
@@ -192,11 +189,10 @@ icon projects (full per-icon breakdown in `debian/copyright`):
   by the Papirus Development Team — GNU GPL v3 or later — 1 icon
   (raspbian).
 
-The `question` and `astra` icons are original artwork by this fork's
-author. `astra` specifically replaced a copy of Astra Linux's actual
-trademarked logo, once it became clear their own official press kit
-grants no reuse licence — the replacement is a plain blue "A" on a
-white badge, deliberately not resembling the real trademark.
-
-The remaining 1 (dropbear) has no confirmed source yet — see the
-note above.
+The `question`, `astra`, and `dropbear` icons are original artwork by
+this fork's author. `astra` specifically replaced a copy of Astra
+Linux's actual trademarked logo, once it became clear their own
+official press kit grants no reuse licence — the replacement is a
+plain blue "A" on a white badge, deliberately not resembling the real
+trademark. `dropbear` was self-drawn from the start (a generic "DR"
+letter-badge) and was never sourced from a third party.

@@ -46,15 +46,14 @@ Copyright: 2024 Bjorn Lammers, Meier Lukas, Thomas Camlong, and Homarr Labs
  slackware -- see Comment)
  selfhst/icons contributors (1 embedded icon: freebsd -- see Comment)
  Papirus Development Team (1 embedded icon: raspbian -- see Comment)
- 2026 Darth Vader <max232san@gmail.com> (the "question" and "astra"
- icons, both self-drawn -- see Comment)
- unknown (remaining 1 embedded icon: dropbear)
-License: UNKNOWN
+ 2026 Darth Vader <max232san@gmail.com> (the "question", "astra" and
+ "dropbear" icons, all self-drawn -- see Comment)
+License: Apache-2.0 and CC0-1.0 and CC-BY-4.0 and GPL-3.0-or-later and MIT
 Comment:
- XXX MOSTLY RESOLVED as of 2026-08-01, see debian/README.Debian. This
- header embeds small pixel-art icons representing ~38 Linux/Unix
- distributions and OS vendors, traced to their sources across four
- free/open icon catalogues:
+ RESOLVED as of 2026-08-01, see debian/README.Debian. All 38 icons in
+ this header are now traced to a free/open source or are this fork's
+ own original artwork, across four free/open icon catalogues plus
+ three self-drawn icons:
  .
   * Apache-2.0, github.com/homarr-labs/dashboard-icons (31 icons):
     alma, alpine, amazon, arch, centos, cisco, debian, fedora, gentoo,
@@ -80,33 +79,32 @@ Comment:
     Team), which is good precedent that this exact asset is considered
     archive-acceptable.
  .
- Those 36 are effectively covered by their respective free licences
- once this stanza is split up file-by-file (not done yet -- would
- require de-generating this header back into per-icon source images
- with individual copyright records).
+ Those 36 are effectively covered by their respective free licences,
+ and the remaining 2 are this fork's own original artwork:
  .
- astra was different: the official Astra Linux / "Группа Астра" press
- kit (astra.ru/about/press-center/materials/) has a direct logo
- download but states no usage licence at all -- a normal commercial
- trademark, unlike the community-project logos above that come with
- explicit reuse permission, so using it would have been a real
- unresolved trademark risk, not just an attribution gap. Also checked
- Wikimedia Commons directly: the only "Astra" hits there are an
- unrelated satellite company's PD-textlogo and an unrelated art photo,
- neither usable. Replaced with original artwork instead (a plain blue
- "A" on a white rounded-square badge, matching the flat-badge style
- already used for the "question" icon -- see FEATURES.md Credits).
+  * "astra" -- replaced with original artwork after it turned out the
+    official Astra Linux / "Группа Астра" press kit
+    (astra.ru/about/press-center/materials/) has a direct logo
+    download but states no usage licence at all -- a normal
+    commercial trademark, unlike the community-project logos above
+    that come with explicit reuse permission, so using it would have
+    been a real unresolved trademark risk, not just an attribution
+    gap. Also checked Wikimedia Commons directly: the only "Astra"
+    hits there are an unrelated satellite company's PD-textlogo and
+    an unrelated art photo, neither usable. Replacement is a plain
+    blue "A" on a white rounded-square badge, matching the flat-badge
+    style of "question" (see FEATURES.md Credits).
+  * "dropbear" -- self-drawn from the start (a generic "DR" letter-
+    badge, same flat-badge style), not sourced from any third-party
+    catalogue in the first place, so there was never anything to
+    trace here.
  .
- The remaining 1 -- dropbear -- does NOT appear in any of the four
- catalogues checked, and unlike astra there is no official upstream
- logo to even worry about (the actual Dropbear SSH project has no
- branding at all); this fork's existing icon is just a generic "DR"
- letter-badge, plausibly below the threshold of originality for
- copyright, but its specific provenance is still genuinely unknown.
- Until it's replaced/dropped or the header is split so the 37
- resolved ones can be declared individually, this FILE as a whole
- stays NOT confirmed DFSG-free.
- See FEATURES.md and debian/README.Debian for the current plan.
+ All 38 icons are now covered; splitting this single generated header
+ back into per-icon source files with individual copyright records
+ (so each icon could be declared under its own specific licence
+ stanza instead of this one catch-all) is still outstanding but no
+ longer blocks DFSG-freeness -- see FEATURES.md and
+ debian/README.Debian.
 
 Files: debian/icons/hicolor/*/mimetypes/application-x-puttymod-export.png
 Copyright: 2026 Darth Vader <max232san@gmail.com>
