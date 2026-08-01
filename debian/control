@@ -10,6 +10,8 @@ Build-Depends: debhelper-compat (= 13),
                libglib2.0-dev
 Standards-Version: 4.7.4
 Homepage: https://github.com/iam-darth-vader/puttymod
+Vcs-Browser: https://github.com/iam-darth-vader/puttymod
+Vcs-Git: https://github.com/iam-darth-vader/puttymod.git
 Rules-Requires-Root: no
 
 Package: puttymod
