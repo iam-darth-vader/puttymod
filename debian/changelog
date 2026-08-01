@@ -7,5 +7,6 @@ puttymod (0.83+puttymod1-1) unstable; urgency=medium
   * Source format 3.0 (quilt), upstream tarball from GitHub tag
     v0.83+puttymod1. debian/patches is empty since this fork IS its
     own upstream.
+  * Closes: #1143272
 
  -- Darth Vader <max232san@gmail.com>  Sat, 01 Aug 2026 22:08:50 +0300
