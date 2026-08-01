@@ -162,15 +162,14 @@ hoc `~/.local/share` installs). Ships only the GUI client as
 the official `putty`/`putty-tools` packages with zero file overlap.
 `lintian --pedantic` is clean (zero real errors/warnings).
 
-Currently a **native** source package (`3.0 (native)`) since there's
-no separate upstream tarball yet; converting to a normal upstream-
-tarball + `debian/`-patches layout is planned once this project has
-real GitHub releases to package against.
+A proper `3.0 (quilt)` source package: a separate upstream orig
+tarball built from the tagged GitHub release (`v0.83+puttymod1`) plus
+a `debian/` overlay, rather than native format. `debian/patches` is
+empty — this fork is its own upstream, so there's nothing to diff
+against a separate unmodified tree.
 
-**Not yet resolved, tracked as a real blocker for any public/shared
-distribution** (a personal local install is unaffected): the
-distro-icon licensing gap above, see `debian/copyright` and
-`debian/README.Debian` for the formal marker.
+Both licensing blockers are resolved (icons above, quilt format here),
+so the project is now ready for the debian-mentors sponsor search.
 
 ## Credits — third-party icon sources
 
