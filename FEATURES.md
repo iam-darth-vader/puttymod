@@ -172,3 +172,23 @@ real GitHub releases to package against.
 distribution** (a personal local install is unaffected): the
 distro-icon licensing gap above, see `debian/copyright` and
 `debian/README.Debian` for the formal marker.
+
+## Credits — third-party icon sources
+
+The distro/OS icons in `unix/distro_icons.h` are not original
+artwork. 36 of the 38 have been traced to these free/open icon
+projects (full per-icon breakdown in `debian/copyright`):
+
+- [dashboard-icons](https://github.com/homarr-labs/dashboard-icons)
+  by Bjorn Lammers, Meier Lukas, Thomas Camlong, and Homarr Labs —
+  Apache License 2.0 — 31 icons.
+- [Simple Icons](https://simpleicons.org) contributors — CC0 1.0
+  Universal — 3 icons (elementary, popos, slackware).
+- [selfhst/icons](https://github.com/selfhst/icons) contributors —
+  Creative Commons Attribution 4.0 International — 1 icon (freebsd).
+- [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+  by the Papirus Development Team — GNU GPL v3 or later — 1 icon
+  (raspbian).
+
+The remaining 2 (astra, dropbear) have no confirmed source yet — see
+the note above.
