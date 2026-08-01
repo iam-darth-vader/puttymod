@@ -1,0 +1,1113 @@
+# Russian translation for PuTTY (local build).
+# Only user-visible interface strings are translated. Cryptographic
+# algorithm names, protocol names and other technical identifiers are
+# deliberately left in English: translating them would be misleading.
+msgid ""
+msgstr ""
+"Project-Id-Version: PuTTY 0.83 (local)\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ---------- category tree ----------
+msgid "Session"
+msgstr "Сессия"
+
+msgid "Logging"
+msgstr "Журнал"
+
+msgid "Terminal"
+msgstr "Терминал"
+
+msgid "Keyboard"
+msgstr "Клавиатура"
+
+msgid "Bell"
+msgstr "Звуковой сигнал"
+
+msgid "Features"
+msgstr "Возможности"
+
+msgid "Window"
+msgstr "Окно"
+
+msgid "Appearance"
+msgstr "Внешний вид"
+
+msgid "Behaviour"
+msgstr "Поведение"
+
+msgid "Translation"
+msgstr "Кодировка"
+
+msgid "Selection"
+msgstr "Выделение"
+
+msgid "Copy"
+msgstr "Копирование"
+
+msgid "Colours"
+msgstr "Цвета"
+
+msgid "Connection"
+msgstr "Соединение"
+
+msgid "Data"
+msgstr "Данные"
+
+msgid "Proxy"
+msgstr "Прокси"
+
+msgid "Host keys"
+msgstr "Ключи хоста"
+
+msgid "Cipher"
+msgstr "Шифры"
+
+msgid "Auth"
+msgstr "Аутентификация"
+
+msgid "Credentials"
+msgstr "Учётные данные"
+
+msgid "Tunnels"
+msgstr "Туннели"
+
+msgid "Bugs"
+msgstr "Совместимость"
+
+msgid "More bugs"
+msgstr "Ещё совместимость"
+
+msgid "Serial"
+msgstr "COM-порт"
+
+# ---------- buttons ----------
+msgid "Open"
+msgstr "Открыть"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Load"
+msgstr "Загрузить"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "About"
+msgstr "О программе"
+
+msgid "Help"
+msgstr "Справка"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Browse..."
+msgstr "Обзор..."
+
+# ---------- Session panel ----------
+msgid "Host Name (or IP address)"
+msgstr "Имя хоста (или IP-адрес)"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Connection type:"
+msgstr "Тип соединения:"
+
+msgid "Saved Sessions"
+msgstr "Сохранённые сессии"
+
+msgid "Load, save or delete a stored session"
+msgstr "Загрузка, сохранение и удаление сессий"
+
+msgid "Close window on exit:"
+msgstr "Закрывать окно при выходе:"
+
+msgid "Always"
+msgstr "Всегда"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "Only on clean exit"
+msgstr "Только при штатном завершении"
+
+msgid "Basic options for your PuTTY session"
+msgstr "Основные параметры сессии PuTTY"
+
+msgid "Specify the destination you want to connect to"
+msgstr "Укажите, куда подключаться"
+
+# ---------- Logging ----------
+msgid "Session logging:"
+msgstr "Журналирование сессии:"
+
+msgid "None"
+msgstr "Нет"
+
+msgid "Printable output"
+msgstr "Печатаемый вывод"
+
+msgid "All session output"
+msgstr "Весь вывод сессии"
+
+msgid "Log file name:"
+msgstr "Имя файла журнала:"
+
+msgid "Options controlling session logging"
+msgstr "Параметры журналирования сессии"
+
+# ---------- Window ----------
+msgid "Set the size of the window"
+msgstr "Размер окна"
+
+msgid "Columns"
+msgstr "Столбцов"
+
+msgid "Rows"
+msgstr "Строк"
+
+msgid "Lines of scrollback"
+msgstr "Строк в буфере прокрутки"
+
+msgid "Display scrollbar"
+msgstr "Показывать полосу прокрутки"
+
+msgid "Options controlling PuTTY's window"
+msgstr "Параметры окна PuTTY"
+
+msgid "Control the scrollback in the window"
+msgstr "Буфер прокрутки окна"
+
+# ---------- Appearance ----------
+msgid "Adjust the use of the cursor"
+msgstr "Настройка курсора"
+
+msgid "Cursor appearance:"
+msgstr "Вид курсора:"
+
+msgid "Block"
+msgstr "Прямоугольник"
+
+msgid "Underline"
+msgstr "Подчёркивание"
+
+msgid "Vertical line"
+msgstr "Вертикальная черта"
+
+msgid "Cursor blinks"
+msgstr "Мигающий курсор"
+
+msgid "Font settings"
+msgstr "Шрифт"
+
+msgid "Font used in the terminal window"
+msgstr "Шрифт окна терминала"
+
+msgid "Change..."
+msgstr "Изменить..."
+
+msgid "Adjust the use of the window title"
+msgstr "Заголовок окна"
+
+msgid "Window title:"
+msgstr "Заголовок окна:"
+
+msgid "Configure the appearance of PuTTY's window"
+msgstr "Настройка внешнего вида окна PuTTY"
+
+msgid "Gap between text and window edge:"
+msgstr "Отступ текста от края окна:"
+
+# ---------- Selection ----------
+msgid "Auto-copy selected text to CLIPBOARD"
+msgstr "Автоматически копировать выделенное в буфер обмена"
+
+msgid "Mouse paste action:"
+msgstr "Вставка мышью:"
+
+msgid "Options controlling copy and paste"
+msgstr "Параметры копирования и вставки"
+
+msgid "Assign copy/paste actions to clipboards"
+msgstr "Привязка копирования и вставки к буферам"
+
+msgid "Control which mouse button does which thing"
+msgstr "Назначение кнопок мыши"
+
+msgid "Default selection mode (Alt+drag does the other one):"
+msgstr "Режим выделения по умолчанию (Alt+перетаскивание — другой):"
+
+msgid "Normal"
+msgstr "Обычный"
+
+msgid "Rectangular block"
+msgstr "Прямоугольный блок"
+
+# ---------- Colours ----------
+msgid "Allow terminal to specify ANSI colours"
+msgstr "Разрешить терминалу задавать ANSI-цвета"
+
+msgid "Adjust the precise colours PuTTY displays"
+msgstr "Точная настройка цветов PuTTY"
+
+msgid "Select a colour from the list, and then click the Modify button to change its appearance."
+msgstr "Выберите цвет в списке и нажмите «Изменить», чтобы поменять его."
+
+msgid "Modify..."
+msgstr "Изменить..."
+
+msgid "Options controlling use of colours"
+msgstr "Параметры использования цветов"
+
+# ---------- Connection ----------
+msgid "Options controlling the connection"
+msgstr "Параметры соединения"
+
+msgid "Seconds between keepalives (0 to turn off)"
+msgstr "Секунд между keepalive-пакетами (0 — выключить)"
+
+msgid "Disable Nagle's algorithm (TCP_NODELAY option)"
+msgstr "Отключить алгоритм Нейгла (TCP_NODELAY)"
+
+msgid "Enable TCP keepalives (SO_KEEPALIVE option)"
+msgstr "Включить TCP keepalive (SO_KEEPALIVE)"
+
+msgid "Sending of null packets to keep session active"
+msgstr "Отправка пустых пакетов для поддержания сессии"
+
+msgid "Low-level TCP connection options"
+msgstr "Низкоуровневые параметры TCP-соединения"
+
+# ---------- Connection / Data ----------
+msgid "Login details"
+msgstr "Данные для входа"
+
+msgid "Auto-login username"
+msgstr "Имя пользователя для автовхода"
+
+msgid "Terminal-type string"
+msgstr "Тип терминала"
+
+msgid "Terminal details"
+msgstr "Параметры терминала"
+
+msgid "Data to send to the server"
+msgstr "Данные, отправляемые серверу"
+
+msgid "Environment variables"
+msgstr "Переменные окружения"
+
+msgid "Variable"
+msgstr "Переменная"
+
+msgid "Value"
+msgstr "Значение"
+
+msgid "Add"
+msgstr "Добавить"
+
+msgid "Remove"
+msgstr "Удалить"
+
+# ---------- Proxy ----------
+msgid "Proxy type:"
+msgstr "Тип прокси:"
+
+msgid "Proxy hostname"
+msgstr "Имя хоста прокси"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Options controlling proxy usage"
+msgstr "Параметры использования прокси"
+
+# ---------- SSH ----------
+msgid "Options controlling SSH connections"
+msgstr "Параметры SSH-соединений"
+
+msgid "Don't start a shell or command at all"
+msgstr "Не запускать оболочку или команду"
+
+msgid "Enable compression"
+msgstr "Включить сжатие"
+
+msgid "Remote command:"
+msgstr "Команда на сервере:"
+
+msgid "Protocol options"
+msgstr "Параметры протокола"
+
+# ---------- SSH / Auth ----------
+msgid "Bypass authentication entirely (SSH-2 only)"
+msgstr "Полностью пропустить аутентификацию (только SSH-2)"
+
+msgid "Display pre-authentication banner (SSH-2 only)"
+msgstr "Показывать баннер до аутентификации (только SSH-2)"
+
+msgid "Attempt authentication using Pageant"
+msgstr "Пробовать аутентификацию через Pageant"
+
+msgid "Allow agent forwarding"
+msgstr "Разрешить перенаправление агента"
+
+msgid "Options controlling SSH authentication"
+msgstr "Параметры SSH-аутентификации"
+
+msgid "Authentication methods"
+msgstr "Способы аутентификации"
+
+msgid "Authentication parameters"
+msgstr "Параметры аутентификации"
+
+msgid "Private key file for authentication"
+msgstr "Файл приватного ключа для аутентификации"
+
+msgid "Credentials to authenticate with"
+msgstr "Учётные данные для аутентификации"
+
+msgid "Certificate to use with the private key"
+msgstr "Сертификат к приватному ключу"
+
+# ---------- SSH / Tunnels ----------
+msgid "Port forwarding"
+msgstr "Проброс портов"
+
+msgid "Local ports accept connections from other hosts"
+msgstr "Локальные порты принимают подключения с других хостов"
+
+msgid "Forwarded ports:"
+msgstr "Проброшенные порты:"
+
+msgid "Add new forwarded port:"
+msgstr "Добавить проброс порта:"
+
+msgid "Source port"
+msgstr "Исходный порт"
+
+msgid "Destination"
+msgstr "Назначение"
+
+msgid "Local"
+msgstr "Локальный"
+
+msgid "Remote"
+msgstr "Удалённый"
+
+msgid "Dynamic"
+msgstr "Динамический"
+
+msgid "Options controlling SSH port forwarding"
+msgstr "Параметры проброса портов SSH"
+
+msgid "X11 forwarding"
+msgstr "Перенаправление X11"
+
+msgid "Enable X11 forwarding"
+msgstr "Включить перенаправление X11"
+
+msgid "Options controlling SSH X11 forwarding"
+msgstr "Параметры перенаправления X11 через SSH"
+
+# ---------- Terminal ----------
+msgid "Options controlling the terminal emulation"
+msgstr "Параметры эмуляции терминала"
+
+msgid "Set various terminal options"
+msgstr "Различные параметры терминала"
+
+msgid "Auto wrap mode initially on"
+msgstr "Автоперенос строк включён изначально"
+
+msgid "Local echo:"
+msgstr "Локальное эхо:"
+
+msgid "Local line editing:"
+msgstr "Локальное редактирование строки:"
+
+msgid "Auto"
+msgstr "Авто"
+
+msgid "Force on"
+msgstr "Включить"
+
+msgid "Force off"
+msgstr "Выключить"
+
+msgid "Line discipline options"
+msgstr "Параметры обработки строк"
+
+# ---------- Keyboard ----------
+msgid "Options controlling the effects of keys"
+msgstr "Параметры работы клавиш"
+
+msgid "Change the sequences sent by:"
+msgstr "Изменить последовательности, посылаемые:"
+
+msgid "The Backspace key"
+msgstr "Клавиша Backspace"
+
+msgid "The Home and End keys"
+msgstr "Клавиши Home и End"
+
+msgid "The Function keys and keypad"
+msgstr "Функциональные клавиши и цифровой блок"
+
+# ---------- Bell ----------
+msgid "Options controlling the terminal bell"
+msgstr "Параметры звукового сигнала терминала"
+
+msgid "Set the style of bell"
+msgstr "Тип сигнала"
+
+msgid "Action to happen when a bell occurs:"
+msgstr "Действие при сигнале:"
+
+msgid "None (bell disabled)"
+msgstr "Нет (сигнал отключён)"
+
+msgid "Make default system alert sound"
+msgstr "Системный звук уведомления"
+
+msgid "Visual bell (flash window)"
+msgstr "Визуальный сигнал (мигание окна)"
+
+# ---------- Translation ----------
+msgid "Options controlling character set translation"
+msgstr "Параметры перекодировки символов"
+
+msgid "Remote character set:"
+msgstr "Кодировка сервера:"
+
+msgid "Character set translation"
+msgstr "Перекодировка символов"
+
+# ---------- language selector (added by this build) ----------
+msgid "Interface language"
+msgstr "Язык интерфейса"
+
+msgid "Language:"
+msgstr "Язык:"
+
+msgid "English"
+msgstr "English"
+
+msgid "Russian"
+msgstr "Русский"
+
+msgid "Language changes take effect next time PuTTY starts."
+msgstr "Смена языка применится при следующем запуске PuTTY."
+
+msgid "Auto-login password (ignored if a key is set)"
+msgstr "Пароль для автовхода (игнорируется при заданном ключе)"
+
+# ---------- panel titles (batch 2) ----------
+msgid "Enabling and disabling advanced terminal features"
+msgstr "Включение и отключение расширенных возможностей терминала"
+
+msgid "Options controlling copying from terminal to clipboard"
+msgstr "Настройки копирования из терминала в буфер обмена"
+
+msgid "Options controlling SSH key exchange"
+msgstr "Настройки обмена ключами SSH"
+
+msgid "Options controlling SSH host keys"
+msgstr "Настройки ключей хоста SSH"
+
+msgid "Options controlling SSH encryption"
+msgstr "Настройки шифрования SSH"
+
+msgid "Options controlling GSSAPI authentication"
+msgstr "Настройки аутентификации GSSAPI"
+
+msgid "Remote terminal settings"
+msgstr "Настройки удалённого терминала"
+
+msgid "Workarounds for SSH server bugs"
+msgstr "Обходные решения для ошибок SSH-серверов"
+
+msgid "Further workarounds for SSH server bugs"
+msgstr "Дополнительные обходные решения для ошибок SSH-серверов"
+
+msgid "Options controlling local serial lines"
+msgstr "Настройки локальных последовательных портов"
+
+msgid "Options controlling Telnet connections"
+msgstr "Настройки подключений Telnet"
+
+msgid "Options controlling Rlogin connections"
+msgstr "Настройки подключений Rlogin"
+
+msgid "Options controlling SUPDUP connections"
+msgstr "Настройки подключений SUPDUP"
+
+# ---------- section headings ----------
+msgid "Options specific to SSH packet logging"
+msgstr "Настройки журналирования SSH-пакетов"
+
+msgid "Remote-controlled printing"
+msgstr "Печать по команде с сервера"
+
+msgid "Application keypad settings:"
+msgstr "Настройки прикладной цифровой клавиатуры:"
+
+msgid "Control the bell overload behaviour"
+msgstr "Управление поведением при частом звуковом сигнале"
+
+msgid "Adjust the use of the mouse pointer"
+msgstr "Настройка указателя мыши"
+
+msgid "Adjust the window border"
+msgstr "Настройка рамки окна"
+
+msgid "Adjust the behaviour of the window title"
+msgstr "Настройка заголовка окна"
+
+msgid "Control use of mouse"
+msgstr "Управление использованием мыши"
+
+msgid "Control pasting of text from clipboard to terminal"
+msgstr "Управление вставкой текста из буфера обмена в терминал"
+
+msgid "Classes of character that group together"
+msgstr "Классы символов, группируемые вместе"
+
+msgid "General options for colour usage"
+msgstr "Общие настройки использования цветов"
+
+msgid "Internet protocol version"
+msgstr "Версия интернет-протокола"
+
+msgid "Logical name of remote host"
+msgstr "Логическое имя удалённого хоста"
+
+msgid "Sharing an SSH connection between PuTTY tools"
+msgstr "Разделение SSH-подключения между инструментами PuTTY"
+
+msgid "Key exchange algorithm options"
+msgstr "Настройки алгоритмов обмена ключами"
+
+msgid "Options controlling key re-exchange"
+msgstr "Настройки повторного обмена ключами"
+
+msgid "Host key algorithm preference"
+msgstr "Приоритет алгоритмов ключа хоста"
+
+msgid "Manually configure host keys for this connection"
+msgstr "Задать ключи хоста для этого подключения вручную"
+
+msgid "Configure trusted certification authorities"
+msgstr "Настройка доверенных удостоверяющих центров"
+
+msgid "Encryption options"
+msgstr "Настройки шифрования"
+
+msgid "Other authentication-related options"
+msgstr "Прочие настройки аутентификации"
+
+msgid "Public-key authentication"
+msgstr "Аутентификация по открытому ключу"
+
+msgid "Plugin to provide authentication responses"
+msgstr "Плагин для ответов аутентификации"
+
+msgid "Terminal modes"
+msgstr "Режимы терминала"
+
+msgid "Detection of known bugs in SSH servers"
+msgstr "Обнаружение известных ошибок SSH-серверов"
+
+msgid "Manually enabled workarounds"
+msgstr "Обходные решения, включённые вручную"
+
+msgid "Select a serial line"
+msgstr "Выбор последовательного порта"
+
+msgid "Configure the serial line"
+msgstr "Настройка последовательного порта"
+
+msgid "Telnet protocol adjustments"
+msgstr "Настройки протокола Telnet"
+
+# ---------- edit boxes ----------
+msgid "Red"
+msgstr "Красный"
+
+msgid "Green"
+msgstr "Зелёный"
+
+msgid "Blue"
+msgstr "Синий"
+
+msgid "Answerback to ^E:"
+msgstr "Ответ на ^E:"
+
+msgid "Over-use means this many bells..."
+msgstr "Слишком часто — это столько сигналов..."
+
+msgid "... in this many seconds"
+msgstr "... за столько секунд"
+
+msgid "Seconds of silence required"
+msgstr "Требуемая тишина, секунд"
+
+msgid "Set to class"
+msgstr "Назначить класс"
+
+msgid "Terminal speeds"
+msgstr "Скорости терминала"
+
+msgid "Exclude Hosts/IPs"
+msgstr "Исключить хосты/IP-адреса"
+
+msgid "Command to send to proxy (for some types)"
+msgstr "Команда для прокси (для некоторых типов)"
+
+msgid "Max minutes before rekey (0 for no limit)"
+msgstr "Максимум минут до смены ключа (0 — без ограничения)"
+
+msgid "Minutes between GSS checks (0 for never)"
+msgstr "Минут между проверками GSS (0 — никогда)"
+
+msgid "Max data before rekey (0 for no limit)"
+msgstr "Максимум данных до смены ключа (0 — без ограничения)"
+
+msgid "Key"
+msgstr "Ключ"
+
+msgid "Plugin command to run"
+msgstr "Команда запуска плагина"
+
+msgid "X display location"
+msgstr "Адрес X-дисплея"
+
+msgid "Serial line to connect to"
+msgstr "Последовательный порт для подключения"
+
+msgid "Speed (baud)"
+msgstr "Скорость (бод)"
+
+msgid "Data bits"
+msgstr "Биты данных"
+
+msgid "Stop bits"
+msgstr "Стоп-биты"
+
+msgid "Local username:"
+msgstr "Локальное имя пользователя:"
+
+msgid "Location string"
+msgstr "Строка расположения"
+
+# ---------- checkboxes ----------
+msgid "Flush log file frequently"
+msgstr "Часто сбрасывать журнал на диск"
+
+msgid "Include header"
+msgstr "Включать заголовок"
+
+msgid "Omit known password fields"
+msgstr "Пропускать известные поля с паролями"
+
+msgid "Omit session data"
+msgstr "Пропускать данные сессии"
+
+msgid "DEC Origin Mode initially on"
+msgstr "Режим DEC Origin включён изначально"
+
+msgid "Implicit CR in every LF"
+msgstr "Неявный CR в каждом LF"
+
+msgid "Implicit LF in every CR"
+msgstr "Неявный LF в каждом CR"
+
+msgid "Use background colour to erase screen"
+msgstr "Использовать цвет фона при очистке экрана"
+
+msgid "Enable blinking text"
+msgstr "Разрешить мигающий текст"
+
+msgid "Bell is temporarily disabled when over-used"
+msgstr "Временно отключать сигнал при частом использовании"
+
+msgid "Disable application cursor keys mode"
+msgstr "Отключить прикладной режим клавиш курсора"
+
+msgid "Disable application keypad mode"
+msgstr "Отключить прикладной режим цифровой клавиатуры"
+
+msgid "Disable xterm-style mouse reporting"
+msgstr "Отключить передачу событий мыши в стиле xterm"
+
+msgid "Disable remote-controlled terminal resizing"
+msgstr "Запретить серверу менять размер терминала"
+
+msgid "Disable switching to alternate terminal screen"
+msgstr "Запретить переключение на альтернативный экран"
+
+msgid "Disable remote-controlled window title changing"
+msgstr "Запретить серверу менять заголовок окна"
+
+msgid "Disable remote-controlled clearing of scrollback"
+msgstr "Запретить серверу очищать журнал прокрутки"
+
+msgid "Disable destructive backspace on server sending ^?"
+msgstr "Отключить удаляющий backspace при получении ^? от сервера"
+
+msgid "Disable remote-controlled character set configuration"
+msgstr "Запретить серверу менять кодировку"
+
+msgid "Disable Arabic text shaping"
+msgstr "Отключить огласовку арабского текста"
+
+msgid "Disable bidirectional text display"
+msgstr "Отключить двунаправленный вывод текста"
+
+msgid "Disable bracketed paste mode"
+msgstr "Отключить режим bracketed paste"
+
+msgid "Reset scrollback on keypress"
+msgstr "Сбрасывать прокрутку при нажатии клавиши"
+
+msgid "Reset scrollback on display activity"
+msgstr "Сбрасывать прокрутку при выводе на экран"
+
+msgid "Push erased text into scrollback"
+msgstr "Переносить удалённый текст в журнал прокрутки"
+
+msgid "Hide mouse pointer when typing in window"
+msgstr "Скрывать указатель мыши при наборе текста"
+
+msgid "Separate window and icon titles"
+msgstr "Раздельные заголовки окна и значка"
+
+msgid "Warn before closing window"
+msgstr "Предупреждать перед закрытием окна"
+
+msgid "Treat CJK ambiguous characters as wide"
+msgstr "Считать неоднозначные символы CJK широкими"
+
+msgid "Copy and paste line drawing characters as lqqqk"
+msgstr "Копировать символы рамок как lqqqk"
+
+msgid "Enable VT100 line drawing even in UTF-8 mode"
+msgstr "Разрешить рамки VT100 даже в режиме UTF-8"
+
+msgid "Shift overrides application's use of mouse"
+msgstr "Shift отменяет использование мыши программой"
+
+msgid "Permit control characters in pasted text"
+msgstr "Разрешить управляющие символы во вставляемом тексте"
+
+msgid "Allow terminal to use xterm 256-colour mode"
+msgstr "Разрешить терминалу 256-цветный режим xterm"
+
+msgid "Allow terminal to use 24-bit colours"
+msgstr "Разрешить терминалу 24-битные цвета"
+
+msgid "Consider proxying local host connections"
+msgstr "Проксировать также подключения к локальному хосту"
+
+msgid "Share SSH connections if possible"
+msgstr "Разделять SSH-подключения, когда возможно"
+
+msgid "Upstream (connecting to the real server)"
+msgstr "Восходящее (подключение к настоящему серверу)"
+
+msgid "Downstream (connecting to the upstream PuTTY)"
+msgstr "Нисходящее (подключение к восходящему PuTTY)"
+
+msgid "Attempt GSSAPI key exchange"
+msgstr "Пытаться выполнить обмен ключами GSSAPI"
+
+msgid "Prefer algorithms for which a host key is known"
+msgstr "Предпочитать алгоритмы с известным ключом хоста"
+
+msgid "Enable legacy use of single-DES in SSH-2"
+msgstr "Разрешить устаревший single-DES в SSH-2"
+
+msgid "Disconnect if authentication succeeds trivially"
+msgstr "Отключаться, если аутентификация проходит без проверки"
+
+msgid "Attempt TIS or CryptoCard auth (SSH-1)"
+msgstr "Пытаться пройти аутентификацию TIS или CryptoCard (SSH-1)"
+
+msgid "Attempt \"keyboard-interactive\" auth (SSH-2)"
+msgstr "Пытаться пройти аутентификацию «keyboard-interactive» (SSH-2)"
+
+msgid "Allow attempted changes of username in SSH-2"
+msgstr "Разрешить попытки смены имени пользователя в SSH-2"
+
+msgid "Attempt GSSAPI authentication (SSH-2 only)"
+msgstr "Пытаться пройти аутентификацию GSSAPI (только SSH-2)"
+
+msgid "Attempt GSSAPI key exchange (SSH-2 only)"
+msgstr "Пытаться выполнить обмен ключами GSSAPI (только SSH-2)"
+
+msgid "Allow GSSAPI credential delegation"
+msgstr "Разрешить делегирование учётных данных GSSAPI"
+
+msgid "Don't allocate a pseudo-terminal"
+msgstr "Не выделять псевдотерминал"
+
+msgid "Remote ports do the same (SSH-2 only)"
+msgstr "Удалённые порты — так же (только SSH-2)"
+
+msgid "Keyboard sends Telnet special commands"
+msgstr "Клавиатура отправляет специальные команды Telnet"
+
+msgid "Return key sends Telnet New Line instead of ^M"
+msgstr "Клавиша Enter отправляет Telnet New Line вместо ^M"
+
+msgid "**MORE** processing"
+msgstr "Обработка **MORE**"
+
+msgid "Terminal scrolling"
+msgstr "Прокрутка терминала"
+
+# ---------- radio buttons ----------
+msgid "What to do if the log file already exists:"
+msgstr "Что делать, если файл журнала уже существует:"
+
+msgid "Shift/Ctrl/Alt with the arrow keys"
+msgstr "Shift/Ctrl/Alt со клавишами-стрелками"
+
+msgid "Initial state of cursor keys:"
+msgstr "Начальное состояние клавиш курсора:"
+
+msgid "Initial state of numeric keypad:"
+msgstr "Начальное состояние цифровой клавиатуры:"
+
+msgid "Response to remote title query (SECURITY):"
+msgstr "Ответ на запрос заголовка от сервера (БЕЗОПАСНОСТЬ):"
+
+msgid "Handling of line drawing characters:"
+msgstr "Обработка символов рисования рамок:"
+
+msgid "Indicate bolded text by changing:"
+msgstr "Обозначать полужирный текст изменением:"
+
+msgid "When username is not specified:"
+msgstr "Если имя пользователя не указано:"
+
+msgid "Do DNS name lookup at proxy end:"
+msgstr "Разрешать DNS-имена на стороне прокси:"
+
+msgid "Print proxy diagnostics in the terminal window"
+msgstr "Выводить диагностику прокси в окно терминала"
+
+msgid "SSH protocol version:"
+msgstr "Версия протокола SSH:"
+
+msgid "Remote X11 authentication protocol"
+msgstr "Протокол аутентификации удалённого X11"
+
+msgid "Handling of OLD_ENVIRON ambiguity:"
+msgstr "Обработка неоднозначности OLD_ENVIRON:"
+
+msgid "Telnet negotiation mode:"
+msgstr "Режим согласования Telnet:"
+
+msgid "Extended ASCII Character set:"
+msgstr "Расширенный набор символов ASCII:"
+
+# ---------- buttons ----------
+msgid "Set"
+msgstr "Задать"
+
+msgid "Modify"
+msgstr "Изменить"
+
+msgid "Add key"
+msgstr "Добавить ключ"
+
+msgid "Configure host CAs"
+msgstr "Настроить УЦ хостов"
+
+# ---------- lists ----------
+msgid "Character classes:"
+msgstr "Классы символов:"
+
+msgid "Select a colour to adjust:"
+msgstr "Выберите цвет для настройки:"
+
+msgid "Chokes on SSH-2 ignore messages"
+msgstr "Не переносит сообщения SSH-2 ignore"
+
+msgid "Handles SSH-2 key re-exchange badly"
+msgstr "Плохо обрабатывает повторный обмен ключами SSH-2"
+
+msgid "Chokes on PuTTY's SSH-2 'winadj' requests"
+msgstr "Не переносит запросы SSH-2 «winadj» от PuTTY"
+
+msgid "Replies to requests on closed channels"
+msgstr "Отвечает на запросы в закрытых каналах"
+
+msgid "Ignores SSH-2 maximum packet size"
+msgstr "Игнорирует максимальный размер пакета SSH-2"
+
+msgid "Discards data sent before its greeting"
+msgstr "Отбрасывает данные, отправленные до приветствия"
+
+msgid "Chokes on PuTTY's full KEXINIT"
+msgstr "Не переносит полный KEXINIT от PuTTY"
+
+msgid "Old RSA/SHA2 cert algorithm naming"
+msgstr "Старое наименование алгоритмов сертификатов RSA/SHA2"
+
+msgid "Requires padding on SSH-2 RSA signatures"
+msgstr "Требует дополнения в подписях SSH-2 RSA"
+
+msgid "Only supports pre-RFC4419 SSH-2 DH GEX"
+msgstr "Поддерживает только SSH-2 DH GEX до RFC4419"
+
+msgid "Miscomputes SSH-2 HMAC keys"
+msgstr "Неверно вычисляет ключи HMAC для SSH-2"
+
+msgid "Misuses the session ID in SSH-2 PK auth"
+msgstr "Неверно использует ID сессии в аутентификации SSH-2 PK"
+
+msgid "Miscomputes SSH-2 encryption keys"
+msgstr "Неверно вычисляет ключи шифрования SSH-2"
+
+msgid "Chokes on SSH-1 ignore messages"
+msgstr "Не переносит сообщения SSH-1 ignore"
+
+msgid "Refuses all SSH-1 password camouflage"
+msgstr "Отвергает любую маскировку пароля SSH-1"
+
+msgid "Chokes on SSH-1 RSA authentication"
+msgstr "Не переносит аутентификацию SSH-1 RSA"
+
+msgid "Parity"
+msgstr "Контроль чётности"
+
+msgid "Flow control"
+msgstr "Управление потоком"
+
+msgid "Algorithm selection policy:"
+msgstr "Порядок выбора алгоритмов:"
+
+msgid "Encryption cipher selection policy:"
+msgstr "Порядок выбора шифров:"
+
+msgid "Preference order for GSSAPI libraries:"
+msgstr "Порядок предпочтения библиотек GSSAPI:"
+
+# ---------- file/font selectors ----------
+msgid "Private key file for authentication:"
+msgstr "Файл закрытого ключа для аутентификации:"
+
+msgid "Certificate to use with the private key (optional):"
+msgstr "Сертификат для закрытого ключа (необязательно):"
+
+msgid "User-supplied GSSAPI library path:"
+msgstr "Путь к пользовательской библиотеке GSSAPI:"
+
+# ---------- static text ----------
+msgid "(Log file name can contain &Y, &M, &D for date, &T for time, &H for host name, and &P for port number)"
+msgstr "(Имя файла журнала может содержать &Y, &M, &D для даты, &T для времени, &H для имени хоста и &P для номера порта)"
+
+msgid "RGB:"
+msgstr "RGB:"
+
+msgid "The bell is re-enabled after a few seconds of silence."
+msgstr "Звуковой сигнал включается снова после нескольких секунд тишины."
+
+msgid "RGB value:"
+msgstr "Значение RGB:"
+
+msgid "Nothing on this panel may be reconfigured in mid-session; it is only here so that sub-panels of it can exist without looking strange."
+msgstr "Ничего на этой панели нельзя изменить во время сессии; она нужна лишь для того, чтобы её подразделы выглядели естественно."
+
+msgid "Permitted roles in a shared connection:"
+msgstr "Допустимые роли в разделяемом подключении:"
+
+msgid "(Use 1M for 1 megabyte, 1G for 1 gigabyte etc)"
+msgstr "(Используйте 1M для 1 мегабайта, 1G для 1 гигабайта и т. д.)"
+
+msgid "Host keys or fingerprints to accept:"
+msgstr "Принимаемые ключи хоста или отпечатки:"
+
+msgid "Terminal modes to send:"
+msgstr "Отправляемые режимы терминала:"
+
+msgid "For selected mode, send:"
+msgstr "Для выбранного режима отправлять:"
+
+msgid "Printer to send ANSI printer output to:"
+msgstr "Принтер для вывода ANSI-печати:"
+
+# ---------- Local "Design" panel (batch 3) ----------
+# Named "Design" (not "Appearance") to avoid colliding with the
+# pre-existing "Window/Appearance" leaf, which already translates to
+# "Внешний вид" -- I_() matches by string value regardless of tree path.
+msgid "Design"
+msgstr "Оформление"
+
+msgid "Design settings, applied identically to every profile"
+msgstr "Настройки дизайна, применяются одинаково ко всем профилям"
+
+msgid "Font, colours, cursor and transparency of the terminal window"
+msgstr "Шрифт, цвета, курсор и прозрачность окна терминала"
+
+msgid "Preview"
+msgstr "Превью"
+
+msgid "Refresh preview"
+msgstr "Обновить превью"
+
+msgid "Apply to all profiles"
+msgstr "Применить ко всем профилям"
+
+msgid "Background transparency"
+msgstr "Прозрачность фона"
+
+msgid "Background opacity, % (100 = opaque)"
+msgstr "Непрозрачность фона, % (100 = непрозрачно)"
+
+msgid "Colours of the settings window itself (independent of the system theme)"
+msgstr "Цвета самого окна настроек (не зависят от системной темы)"
+
+msgid "Hex colour codes, without the hash sign (for example 1E1E20). Click Apply to save and apply immediately."
+msgstr "Шестнадцатеричные коды цветов, без решётки (например 1E1E20). Нажмите «Применить», чтобы сохранить и применить сразу."
+
+msgid "Accent colour"
+msgstr "Акцентный цвет"
+
+msgid "Window background"
+msgstr "Фон окна"
+
+msgid "Text colour"
+msgstr "Цвет текста"
+
+# ---------- password field status (dlg_text_set, dynamic) ----------
+msgid "A password is saved (encrypted for this user). Type a new one to replace it."
+msgstr "Пароль сохранён (зашифрован для этого пользователя). Введите новый, чтобы заменить."
+
+msgid "No password is set."
+msgstr "Пароль не задан."
+
+# ---------- About box ----------
+msgid "About "
+msgstr "О программе "
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "View Licence"
+msgstr "Просмотреть лицензию"
+
+msgid "Copyright 1997-2025 Simon Tatham. All rights reserved"
+msgstr "Copyright 1997-2025 Simon Tatham. Все права защищены"

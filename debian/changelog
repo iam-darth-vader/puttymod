@@ -1,0 +1,8 @@
+puttymod (0.83+puttymod1) unstable; urgency=medium
+
+  * Initial packaging of PuTTyMOD: rebranded, patched PuTTY 0.83 fork
+    (25-language i18n, per-session online/offline status, theme presets,
+    encrypted session export/import, encrypted auto-login password,
+    first-run welcome + default Tokyo Night theme).
+
+ -- Darth Vader <max232san@gmail.com>  Sat, 01 Aug 2026 18:21:01 +0300

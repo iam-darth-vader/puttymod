@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=PuTTyMOD
+GenericName=SSH/Telnet Client
+Comment=Patched, rebranded PuTTY with theming, i18n and session export
+Exec=puttymod %f
+TryExec=puttymod
+Icon=puttymod
+Terminal=false
+Categories=Network;RemoteAccess;
+MimeType=application/x-puttymod-export;
+StartupNotify=true

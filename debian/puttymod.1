@@ -1,0 +1,58 @@
+.TH PUTTYMOD 1 "August 2026" "puttymod" "User Commands"
+.SH NAME
+puttymod \- PuTTyMOD, a patched and rebranded PuTTY SSH/Telnet client
+.SH SYNOPSIS
+.B puttymod
+.RI [ options ] " " [ user@ ] host
+.SH DESCRIPTION
+.B puttymod
+is a personal fork of
+.BR putty (1),
+the free SSH and Telnet client, carrying a set of local usability
+patches on top of unmodified upstream PuTTY networking/crypto code:
+.IP \(bu 2
+a runtime interface translated into 25 languages, chosen from the
+Design/Language settings panel;
+.IP \(bu 2
+a green/red online\-offline indicator on every saved session, checked
+asynchronously against that session's own host and port;
+.IP \(bu 2
+one\-click colour theme presets (Design/Themes), applied to both the
+settings dialog chrome and the terminal's own colour scheme;
+.IP \(bu 2
+password\-protected export/import of saved sessions as
+.B .pex
+files;
+.IP \(bu 2
+an optional encrypted auto\-login password, stored at rest under
+.IR $HOME/.putty/.pwkey .
+.PP
+Command\-line options, saved\-session file format, and the underlying
+SSH/Telnet/serial protocol support are unchanged from upstream PuTTY;
+see
+.BR putty (1)
+(package
+.BR putty ,
+if installed) for the full reference, or the Help menu inside the
+application itself.
+.SH FILES
+.I $HOME/.putty/sessions/
+.RS
+Saved session profiles (same format as upstream PuTTY).
+.RE
+.I $HOME/.putty/global\-appearance
+.RS
+This fork's local\-patch settings: interface language, colour theme,
+dialog font/opacity. Seeded on first run with the Tokyo Night theme
+and English.
+.RE
+.SH SEE ALSO
+.BR putty (1),
+.BR plink (1),
+.BR puttygen (1)
+.SH AUTHOR
+Upstream PuTTY is written and maintained by Simon Tatham and
+contributors; see
+.I /usr/share/doc/puttymod/copyright
+for the full list. This fork's local patches are maintained
+separately from upstream.

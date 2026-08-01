@@ -1,0 +1,13 @@
+debian/puttymod.desktop usr/share/applications/
+debian/mime/application-x-puttymod-export.xml usr/share/mime/packages/
+debian/icons/hicolor/48x48/apps/puttymod.png usr/share/icons/hicolor/48x48/apps/
+debian/icons/hicolor/16x16/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/16x16/mimetypes/
+debian/icons/hicolor/22x22/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/22x22/mimetypes/
+debian/icons/hicolor/24x24/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/24x24/mimetypes/
+debian/icons/hicolor/32x32/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/32x32/mimetypes/
+debian/icons/hicolor/48x48/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/48x48/mimetypes/
+debian/icons/hicolor/64x64/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/64x64/mimetypes/
+debian/icons/hicolor/72x72/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/72x72/mimetypes/
+debian/icons/hicolor/96x96/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/96x96/mimetypes/
+debian/icons/hicolor/128x128/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/128x128/mimetypes/
+debian/icons/hicolor/256x256/mimetypes/application-x-puttymod-export.png usr/share/icons/hicolor/256x256/mimetypes/

@@ -1,0 +1,31 @@
+Source: puttymod
+Section: net
+Priority: optional
+Maintainer: Darth Vader <max232san@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               pkg-config,
+               libgtk-3-dev,
+               libx11-dev,
+               libglib2.0-dev
+Standards-Version: 4.7.2
+Homepage: https://github.com/max232san/puttymod
+Rules-Requires-Root: no
+
+Package: puttymod
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GTK SSH/Telnet client, PuTTY with local UX patches
+ PuTTyMOD is a personal fork of PuTTY, the free SSH and Telnet
+ client, rebranded and extended with a set of local usability
+ patches: 25-language interface translation, per-connection
+ online/offline status indicators, one-click colour theme presets,
+ password-protected session export/import, and an encrypted
+ auto-login password store.
+ .
+ It is built from the same upstream PuTTY source and installs
+ alongside the official putty package rather than replacing it: only
+ this GUI client is shipped, as /usr/bin/puttymod, so it never
+ touches any file the putty/putty-tools packages own (plink, pscp,
+ psftp, puttygen, pageant, or /usr/bin/putty itself) and both can be
+ installed at the same time.

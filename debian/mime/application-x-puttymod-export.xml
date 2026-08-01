@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-puttymod-export">
+    <comment>PuTTyMOD session export</comment>
+    <comment xml:lang="ru">Экспорт сессий PuTTyMOD</comment>
+    <glob pattern="*.pex"/>
+    <magic priority="50">
+      <match value="PUTTY-EXPORT-2" type="string" offset="0"/>
+    </magic>
+    <icon name="application-x-puttymod-export"/>
+  </mime-type>
+</mime-info>

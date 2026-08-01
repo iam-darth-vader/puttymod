@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+
+# Local patch (packaging): this tree's CMakeLists.txt defines the whole
+# PuTTY suite (putty, pterm, puttygen, pageant, plink, pscp, psftp,
+# psusan) via installed_program(), but we only ship the one GUI
+# binary that's actually been rebranded/patched -- the rest are
+# byte-for-byte identical to what the official putty-tools package
+# already provides, so building/shipping them again here would be
+# pure duplication (and, under their stock names, would collide with
+# putty-tools' own files). Restrict the build to the "putty" CMake
+# target and hand-install just that.
+#
+# Also note: this source tree's CMake build breaks if the build
+# directory's path contains "(" or ")" (see check_git_commit /
+# generated_sbcsdat_c in CMakeLists.txt, which shell out via
+# `sh -c "...$$dir..."` unquoted) -- irrelevant for a real buildd
+# (builds under a plain /build/... path) but matters if you run
+# dpkg-buildpackage by hand from a path with parentheses in it.
+
+%:
+	dh $@ --buildsystem=cmake --builddirectory=build
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DCMAKE_BUILD_TYPE=Release
+
+override_dh_auto_build:
+	dh_auto_build -- putty
+
+override_dh_auto_test:
+	# No test suite is wired up for this fork; nothing to run.
+
+override_dh_auto_install:
+	install -Dm755 build/putty debian/puttymod/usr/bin/puttymod
